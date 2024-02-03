@@ -5,12 +5,16 @@ Debloat and optimize Discord Stable, Discord Canary, Discord PTB. Was also used 
 
 ### What can it do?
 1) Debloat - clears all unnecessary modules, Discord can fully work without them
-2) Clears unused languages - clears all languages except the one in variable `keepLanguage`, which on default contains `en-US`, though it can be changed (NOTE: trying to set a cleared language will result in Discord simply downloading it)
+2) Clears unused languages - clears all languages except the one in variable `keepLanguage` on line 3, which on default contains `en-US`, though it can be changed (NOTE: trying to set a cleared language will result in Discord simply downloading it)
 3) Clear log, old installations, crash reports - clears all logs, packages and temporary files that Discord creates
 4) Optimize priority - optimizes Discord priority either to low, or high, also can be resetted to default (normal)
 5) Clear old application versions - automatically scans all the Discord versions and decides which is the latest and deletes every except the latest one. (NOTE: unable to use for Discord PTB, Discord Canary)
 6) Clear cache - clears all files in Cache, GPUCache, Code Cache folders
 7) Disable Start-Up run - deletes the registry key that causes it to launch at start (NOTE: can not be reversed)
+
+
+
+
 
 
 ### How to use?
